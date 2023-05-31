@@ -1,0 +1,14 @@
+import React from 'react'
+import "./Banner.css"
+const Banner = () => {
+  return (
+    <div className='banner'>
+        <div className='banner-container'>
+        <h1> Clothes for everybody</h1>
+        <p>The best shopping site online where you could find all the clothes that you need</p>
+        </div>
+    </div>
+  )
+}
+
+export default Banner
