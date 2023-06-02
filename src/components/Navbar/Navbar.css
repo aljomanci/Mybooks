@@ -1,24 +1,26 @@
 .nav-container {
-    position : sticky ;
+    position: sticky;
     z-index: 3;
     top: 0;
 }
+
 .navbar {
-    display: flex ;
+    display: flex;
     justify-content: space-between;
     height: 15vh;
-    background-color: rgb(32, 30, 30);
+    background-color: #81A0AD;
 }
+
 .navbar-logo {
     justify-self: start;
-    margin-left: 20px ;
-    color: antiquewhite;
+    margin-left: 20px;
+    color: #03252F;
     margin-top: 4vh;
     cursor: pointer;
 }
 
 .navbar a {
-   text-decoration: none;
+    text-decoration: none;
 }
 
 
@@ -28,10 +30,29 @@
     margin-top: 4vh;
     cursor: pointer;
     text-decoration: none;
-    
+    color: #03252F;
+
 }
+
 .informacion {
-    color: antiquewhite;
+    color: #03252F;
     margin-top: 4vh;
-    
+
+}
+
+.logout {
+    margin-top: 4vh;
+    margin-right: 50px;
+    cursor: pointer;
+    padding: 11px;
+    font-size: 15px;
+    color: #03252F;
+    font-weight: 600;
+    background-color: rgb(235, 239, 239);
+
+}
+
+button:hover {
+    background-color: #5a90a0;
+
 }

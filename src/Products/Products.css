@@ -3,39 +3,42 @@
      width: 100px; 
      border-color: black;
      margin: 10px;
+    
 }
 
 .card  button {
      border: none;
      outline: 0;
      padding:10px ;
-     color:white ;
-     background-color: rgb(155, 226, 191);
+     color:rgb(237, 237, 237) ;
+     background-color: rgb(7, 47, 26);
      width: 50%;
      font-size: 15px;
+     cursor: pointer;
+    
 }
 .card button:hover {
-     opacity: 1.0;
+     background-color: rgba(28, 90, 33, 0.779);
 }
 
 .card {
     margin :10px ;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 4px 4px 4px 4px  rgba(0, 0, 0, 0.1);
-
+    box-shadow: 4px 4px 4px 4px  rgba(0, 0, 0, 0.534);
+    background-image: url(/public/img/card.png);
     
 }
 
 .card p {
      display: flex;
      justify-content: space-between;
+     height: 220px;
      margin: 2rem;
      width: 300px;
      margin-bottom: 10px;
      padding: 10px;
      border-radius: 4px;
-     background-color: #f2f2f2;
      text-align: center;
  }
 
@@ -46,5 +49,5 @@
      margin: 50px;
      text-align: center;
  }
-
+ 
 

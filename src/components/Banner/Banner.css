@@ -3,9 +3,11 @@
     background-position: center;
     height: 100vh;
 
-    background-image :
+    background-image:
    
-   url( 'https://www.pixelstalk.net/wp-content/uploads/images5/Aesthetic-Minimalist-Plant-Desktop-Background.jpg') ;
+   url( '/public/img/noblanc.jpg');
+   background-color:rgba(0, 0, 0, 0.603);
+   
    
 }
 
@@ -16,16 +18,20 @@
 
 .banner h1 {
     margin: 0;
-    color: white;
-    text-shadow: 1px 1px 3px rgb(73, 54, 54);
-    font-size: 62px;
+    color: rgba(4, 39, 7, 0.779);
+    text-shadow: 1px 1px 3px rgb(157, 245, 184);
+    font-size: 65px;
+    text-align: left;
+    margin: 10px 20px;
+    font-weight: 600;
     
 }
 
 .banner p {
-    color: rgba(7, 7, 7, 0.726);
-font-size: large;
-background-color: rgba(255, 255, 255, 0.61);
-
+    color: rgba(0, 0, 0, 0.806);
+    text-align: left;
+    margin: 10px 20px;
+    font-size: 45px;
+    font-weight: 300;
+    
 }
-

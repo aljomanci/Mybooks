@@ -5,6 +5,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import DataProvider from "./components/context/DataContext";
 import Error404 from "./Error404";
 import { Form } from "./components/Form";
+import ContactForm from "./components/ContactForm/ContactForm";
+import Aboutus from "./components/Aboutus/Aboutus";
 import './App.css'
 
 
@@ -20,6 +22,8 @@ function App() {
           <Route path="/" element={<Home />}> </Route>
           <Route path="/cart" element={<CartContent />} />
           <Route path="*" element={<Error404 />}></Route>
+          <Route exact path="/contact" element={<ContactForm/>}></Route>
+          <Route exact path="/about" element={<Aboutus/>}></Route>
         </Routes>
       </BrowserRouter>
     </DataProvider>
