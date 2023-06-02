@@ -33,7 +33,6 @@
 .card p {
      display: flex;
      justify-content: space-between;
-     height: 220px;
      margin: 2rem;
      width: 300px;
      margin-bottom: 10px;
