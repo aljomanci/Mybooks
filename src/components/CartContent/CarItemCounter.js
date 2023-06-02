@@ -18,7 +18,7 @@ const decrease = () => {
 
   return (
   <div className='counter'>
-     <p className='counter-button' onClick={decrease}>-</p>
+     <p className='less-button' onClick={decrease}>-</p>
      <p className ='quanty'>{product.quanty}</p>
       <p className='counter-button' onClick={()=>buyProducts(product)}>+</p>
    

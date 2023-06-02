@@ -5,17 +5,35 @@
     margin: 30px;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 4px 4px 4px 4px  rgba(0, 0, 0, 0.1);
-
+    box-shadow: 4px 4px 4px 2px  rgba(0, 0, 0, 0.1);
+    flex-wrap: wrap;
 }
 .counter-button {
+    display: flex;
+    align-items: center;
     height: 50px;
     width:50px;
     cursor: pointer;
-    justify-self: center;
-    text-align: center;
-    border-radius: 4px;
-    background-color: #f2f2f2 
+    justify-content: center;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #f2f2f2;
+    box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.1)
+    
+
+}
+
+.less-button {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width:50px;
+    cursor: pointer;
+    justify-content: center;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    background-color: #f2f2f2;
+    box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.1);
 
 }
 
@@ -26,12 +44,15 @@
 }
 
 .quanty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 50px;
     width:50px;
+    border-radius: 0px;
+    background-color: #f2f2f2;
+    box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.1);
     
-    text-align: center;
-    border-radius: 4px;
-    background-color: #f2f2f2
 }
 .cartContent > img {
 
@@ -40,17 +61,43 @@
     text-align: center;
 }
 .cartContent .description {
+    display: flex;
+    align-items: center;
     justify-content: space-between;
     text-align: center;
     margin: 2px;
-    height: 320px;
-    width: 200px;
-    padding: 10px;
     border-radius: 4px;
     background-color: #f2f2f2
+    
 }
 
 
 .cartTotal {
     text-align: center;
+}
+
+.counter{
+    display: flex;
+    
+}
+
+.description{
+    width: 500px;
+    box-shadow: 4px 4px 4px 4px  rgba(0, 0, 0, 0.1) ;
+}
+
+img{
+    box-shadow: 4px 4px 8px 2px  rgba(0, 0, 0, 0.1) ;
+    border-radius: 15px;
+}
+
+img:hover{
+    transform: scale(1.2);
+    transition: 0.5s ease;
+}
+
+button:hover{
+    transform: scale(1.2);
+    transition: 0.5s ease;
+    cursor: pointer;
 }

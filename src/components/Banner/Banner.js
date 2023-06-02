@@ -5,7 +5,7 @@ const Banner = () => {
     <div className='banner'>
         <div className='banner-container'>
         <h1> Plants for everybody</h1>
-        <p>The best shopping site online where you could find all the plants that you need</p>
+        <p >The best shopping site online where you could find all the plants that you need</p>
         </div>
     </div>
   )

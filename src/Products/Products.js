@@ -20,7 +20,7 @@ const Products = () => {
             <h4>{product.price}$</h4>
             <p>{product.description}</p> 
             <h5>{product.category}</h5>
-             <button onClick={()=>buyProducts(product)}>buy</button>
+             <button onClick={()=>buyProducts(product)}>Buy</button>
         </div>
     )}
 
